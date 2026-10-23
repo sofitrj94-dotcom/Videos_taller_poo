@@ -64,3 +64,10 @@ cuenta2.consignar(600000);
 for (let i = 0; i < cuentas.length; i = i + 1) {
     console.log(cuentas[i].verInfo());
 }
+
+
+
+
+
+
+
