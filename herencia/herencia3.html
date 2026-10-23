@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal de la Clínica</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</header>
+</head>
+<body>
+    
+    <form>
+        <input type="text" placeholder="Escribir Nombre" id="name">
+        <input type="text" placeholder="Escribir Apellido" id="ape">
+        <input type="number" placeholder="Escribir Edad" id="edad">
+
+        <select id="tipo">
+            <option value="medico">Medico</option>
+            <option value="enfermera">Enfermera</option>
+            <option value="administrador">administrador</option>
+        </select>
+
+   
+    </form>
+
+<div class="contenedor-botones">
+    <button id="boton" onclick="aceptar()" onmouseover="estilo()" onmouseout="botonfuera()">Aceptar</button>
+
+    <button onclick="mostrarTablaDatos()">MostrarTabla</button>
+</div> 
+    
+    <table>
+        <thead>
+            <tr>
+            <th> Nombre </th>
+            <th> Apellido </th>
+            <th> Edad </th>
+            <th> Tipo </th>
+            <th> Opciones </th>
+            </tr>
+            
+        </thead>
+
+        <tbody id="tabla">
+
+    </tbody>
+    </table>
+    
+    
+   
+
+    <script src="herencia3.js"></script>
+
+</body>
+</html>
